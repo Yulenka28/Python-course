@@ -15,8 +15,22 @@
 # summa = a1 + b1 + c1
 # print(f"Колличество парт = {summa}")
 
-a = int(input("Введите год: "))
-if (a % 4 == 0 and a % 100 != 0) or (a % 400 == 0):
-    print("Yes")
-else: 
-    print("No")
+# a = int(input("Введите год: "))
+# if (a % 4 == 0 and a % 100 != 0) or (a % 400 == 0):
+#     print("Yes")
+# else: 
+#     print("No")
+
+#про использование рэнджа
+# range(5) -> 0, 1, 2, 3, 4
+# range(5, 10) -> 5, 6, 7, 8, 9
+# range(1, 11, 2) -> 1, 3, 5, 7, 9
+
+# for i in range(5): - просто выводятся число от 0 до  4
+#     print(i)
+
+# for new_num in range(5, 10): - выодятся от 5 до 9
+#     print(new_num)
+
+# for temp in range(1, 11, 2): - с шагом 2
+#     print(temp)
