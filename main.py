@@ -62,10 +62,16 @@ for i in range(len(t)):
     print(t[i])
     """
 
-d = {} #создали словарь
-d = dict()  #создали словарь
+# def select(f, col):
+#     return [f(x) for x in col]
+# def where(f, col):
+#     return [x for x in col if f(x)]
+# data = [1, 2, 3, 5, 8, 15, 23, 38]
+# res = select(int, data)
+# res = where(lambda x: x % 2 == 0, res)
+# print(res) # [2, 8, 38]
+# res = list(select(lambda x: (x, x ** 2), res))
 
-d['q'] = 'qwerty'  #есть ключ q к которому если обратиться- получим слово qwerty
-print(d)
-d['w'] = 'werty'
-print(d['q'])
+list_1 = [x for x in range (1,20)]
+list_1 = list(map(lambda x: x + 10, list_1 ))
+print(list_1)
